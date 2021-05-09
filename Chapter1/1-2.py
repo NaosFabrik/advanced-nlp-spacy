@@ -1,4 +1,4 @@
-#1-2
+#Getting Started
 # Import the English language class
 from spacy.lang.en import English
 
