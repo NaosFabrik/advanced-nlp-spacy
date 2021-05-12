@@ -20,10 +20,9 @@ print(*entities)
 
 #Part3
 from spacy.lang.en import English
-​nlp = English()
-
+nlp2 = English()
 people = ["David Bowie", "Angela Merkel", "Lady Gaga"]
-​
+
 # Create a list of patterns for the PhraseMatcher
-patterns = [nlp(person) for person in people]
+patterns = [nlp2(person) for person in people]
 
